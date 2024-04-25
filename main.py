@@ -32,3 +32,7 @@ def quadratic_func():
 @app.route("/trigonometric_func")
 def trigonometric_func():
     return render_template('trigonometric_func.html')
+
+@app.route("/logarithmic_func")
+def logarithmic_func():
+    return render_template('logarithmic_func.html')
