@@ -1,5 +1,5 @@
+"use strict";
 
-"use strict"; 
 const btnUp = {
   el: document.querySelector('.btn-up'),
   show() {
